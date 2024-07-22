@@ -1,0 +1,101 @@
+.tier-design{
+    display: flex;
+    width: 1100px;
+    height: 100px;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 30px;
+    align-items: center;
+  }
+  .tier-design-h1{
+    /* margin-left: 20px; */
+    border: 1px solid black;
+    padding-right: 10px;
+    background-color: chocolate;
+    width: 130px;
+    height: 100px;
+    border-radius: 30px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  
+  }
+  .image-design{
+    width: 80px;
+    height: 80px;
+  }
+  .image-div-design{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border: solid black;
+    border-width: 2px;
+    margin-left: 10px;
+  }
+  #non-tier-list-section{
+    display: flex;
+    margin-top: 30px;
+  }
+  .tier-input{
+    height: 24px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .tier-input ::placeholder{
+    color: black;
+    font-weight: 5px;
+    font-size: 3px;
+  }
+  .tier-input:focus{
+    border: 3px solid black;
+  }
+  #color-selector:hover{
+    width: 60px;
+  }
+  #color-selector:focus{
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .tier-button{
+    height: 30px;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 70px;
+  }
+  .tier-button:hover{
+    cursor: pointer;
+    height: 35px;
+    width: 75px;
+    font-weight: bold;
+    border-width: 4px;
+  }
+  .del-button{
+    /* border: solid black; */
+    height: 100px;
+    width: 90px;
+    border-radius: 28px;
+    background-color: rgb(230, 120, 120);
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+  .del-icon{
+    padding-left: 15px;
+    height: 100px;
+    width: 50px;
+  }
+  .big-div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 50px;
+  }
+  .image-placed-div{
+    width: 970px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+  }
